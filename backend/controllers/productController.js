@@ -72,3 +72,4 @@ const deleteProduct = async ( req, res ) =>
         res.status( 500 ).json( { message: 'Server Error' } );
     }
 }
+module.exports = { getPRoducts, getProdcutById, createProduct, updateProduct, deleteProduct };
